@@ -42,8 +42,13 @@ li a:hover{
 table{
     margin: 20px 0px;
     width: 100%;
+    font-family: 'Times New Roman', Times, serif;
 }
-
+#tbl tr th{
+    padding: 5px;
+    color: #fff;
+    background-color: black;
+}
 
 img{
     margin-top: 46px;
