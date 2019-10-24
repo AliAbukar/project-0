@@ -21,4 +21,6 @@ Project 0 contains four different page:-
 
 
 
-they are same with footer and navigation (fixed top navigation)
+
+ they are same with footer and navigation (fixed top navigation)
+ and they all have a media query
