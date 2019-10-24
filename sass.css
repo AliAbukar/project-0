@@ -1,0 +1,15 @@
+/* variable   */
+#tbl { background-color: #f8ef9b; width: 100%; }
+
+/*inheritance */
+.sample, .p1, .p2 { width: 100%; font-family: 'Times New Roman', Times, serif; }
+
+.p1 { background-color: #00ffb3; }
+
+.p2 { background-color: #55CAEE; }
+
+.p { padding: 30px; background-color: #f8ef9b; margin-bottom: 30px; }
+
+.p p { font-size: 20px; }
+
+.p span { font-size: 25px; }
