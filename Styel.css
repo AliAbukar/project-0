@@ -86,14 +86,12 @@ footer{
     color: #000;
     text-align: center;
 }
-#tbl{
+#tbl ,table{
     border: 1px solid black;
     border-collapse: collapse;
 }
-table{
-    border: 1px solid black;
-    border-collapse: collapse;  
-}
+
+
 th{
     background-color: burlywood;
     border: 1px solid black;
