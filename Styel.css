@@ -114,6 +114,13 @@ td{
     }
     
 }
+.child > p{
+    background-color: floralwhite;;
+    }
+    
+    .padding p + h2{
+        color: red;
+    }
 
 
 
