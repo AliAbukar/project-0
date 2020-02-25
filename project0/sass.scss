@@ -1,0 +1,39 @@
+/* variable   */
+$primary-color: rgb(155, 248, 186);
+$wdth: 100%;
+
+#tbl{
+    background-color: $primary-color;
+    width: $wdth;
+}
+
+/*inheritance */
+.sample{
+    width: $wdth;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p1{
+    @extend .sample;
+    background-color: rgb(0, 255, 179);
+}
+.p2{
+    @extend .sample;
+    background-color: #55CAEE;
+}
+
+/* nasted f */
+
+.p{
+    padding: 30px;
+   background-color: $primary-color;
+   margin-bottom:30px;
+    p{
+        font-size: 20px;
+      
+      
+    }
+    span{
+        font-size: 25px;
+    }
+}
